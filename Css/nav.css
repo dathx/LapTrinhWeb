@@ -1,0 +1,77 @@
+
+.wrapper>nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 10px;
+    background-color: blue;
+    text-align: left;
+}
+.menu>ul>li>a{
+    text-decoration:none;
+    font-size :26px;
+    color:white;
+    padding:0 9px;
+    line-height:60px;
+    margin: 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+.menu>ul>li>a:hover{
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+    display: block;
+}
+
+.menu ul ul{
+    position: absolute;
+    display: none;
+}
+.menu>ul ul a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 10px;
+    width: 240px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+    z-index: 1;
+
+}
+.menu>ul>li>ul>li>a{
+    line-height: 50px;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 26px;
+    padding: 0 10px;
+    color: black;
+    text-align: left;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+   
+    
+}
+

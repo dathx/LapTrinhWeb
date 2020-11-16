@@ -1,0 +1,26 @@
+table{
+    width: 90%;
+    height: 290px;
+    border: 2px solid green;
+    border-collapse: collapse;
+    margin-left: 50px;
+}
+th{
+    background-color: seagreen;
+    color: white;
+}
+tr:nth-child(2n){
+    background-color: gainsboro;
+}
+td:nth-child(3){
+    color: green;
+}
+
+.dacbiet>.tin1{
+    width: 50%;
+    float: left;
+}
+.dacbiet>.tin2{
+    width: 50%;
+    float: left;
+}

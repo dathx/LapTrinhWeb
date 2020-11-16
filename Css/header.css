@@ -1,0 +1,71 @@
+
+.menutren{
+    width: 300px;
+    position: absolute;
+    top:0px;
+    left:  0px;
+    background-color: orangered ;
+    border-bottom-right-radius:30px ;
+    box-shadow: 0px 0px 5px 5px white;
+    height: 45px;
+    
+}
+.menutren>a{
+    font-size: 27px;
+    color: white;
+    text-decoration:none;
+    float: left;
+    padding: 17px;
+    display: block;
+}
+.menutren>a:hover{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 50px;
+}
+.logoo{
+    position: absolute;
+    top: -45px;
+    left: -20px;
+}
+#chon{
+    position: relative;
+    top: 230px;
+    overflow : auto;
+    border: 1px solid red;
+    width: 200px;
+    height: 30px;
+}
+input[type="search"] {
+    width: 500px;
+     border: 2px solid red;
+     height: 40px;
+     position: absolute;
+     padding-left: 20px;
+     top: 270px;
+     left: 370px;
+}
+label>i{
+    position: absolute;
+    top:300px;
+    font-size: 30px;
+}
+header>[class*="col-"]>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 150px;
+}
+.gio{
+    position: absolute;
+    left: 1200px;
+    top: 100px;
+}
+
+form>i{
+    position: absolute;
+    top: 280px;
+    left: 840px;
+    z-index: 1;
+}

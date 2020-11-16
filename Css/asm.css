@@ -1,0 +1,293 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 1350px;
+    position: relative;
+    left: 60px;
+   
+}
+header{
+    height: 360px;
+    background-image: url('../Images/bg.jpg' );
+    line-height: 10px;
+    position: relative;
+    width: 100%;
+}
+
+nav{ 
+    color: white;
+    height: 60px;
+    font-variant: small-caps;
+    line-height: 60px;
+    font-size: 27px;
+    float: left;
+    margin: 0px;
+    width: 100%;
+}
+article{
+    min-height: 1380px; 
+    width: 80%;
+    float:right;
+}
+.img:hover{
+    border: 2px red;
+}
+article>img{
+    margin: 5px;
+    width: 120px;
+    height: 500px;
+}
+article>a:hover{
+    background-color: teal;
+    color: yellow;
+    text-decoration: none;
+}
+
+.a1{
+    width: 120px;
+    height: 120px;
+}
+
+article>a{
+    background-color:red;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+aside{
+    min-height :1380px;
+    width: 20%;
+    float: left;
+    border: 1px solid black;
+    position: relative;
+}
+.imf{
+  width: 180px;
+  height: 200px;  
+}
+aside>a{
+    font-size: 30px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+
+aside>a>img{
+    width: 80px;
+    height: 80px;
+
+
+}
+
+
+aside>p{
+    color: red;
+    text-decoration: none;
+    font-size: 19px;
+    text-align: center;
+}
+
+
+footer{
+    height: 0px;
+    background-color: greenyellow;
+    clear: both;
+}
+[class*="col-"] {
+    float: left;
+    margin: 6px;
+    padding: 5px;
+    min-height : 100px;
+    width: 100%;
+}
+
+.dacbiet{
+    text-align: center;
+    
+}
+
+aside>a:hover{
+background-color: rgb(250, 0, 0);
+color: white;
+text-decoration: none;
+}
+
+
+.tk{
+
+    padding-left: 160px;
+    margin: 15px;
+}
+
+
+
+
+* { box-sizing: border-box;}
+
+
+
+.row {
+    width : 100%;
+}
+
+.row::after {
+    position: relative;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 {
+    width : 8.333%;
+}
+
+.col-2 {
+    width : 16.667%;
+}
+
+.col-3 {
+    width : 25%;
+}
+
+.col-4 {
+    width : 33.333%;
+}
+
+.col-5 {
+    width : 41.667%;
+}
+
+.col-6 {
+    width : 50%;
+}
+
+.col-7 {
+    width : 58.333%;
+}
+
+.col-8 {
+    width : 66.667%;
+}
+
+.col-9 {
+    width : 75%;
+}
+
+.col-10 {
+    width : 83.333%;;
+}
+
+.col-11 {
+    width : 91.667;
+}
+
+.col-12 {
+    width : 100%;
+}
+.box>img{
+    width: 220px;
+    height: 200px;
+  
+}
+
+
+.pp{
+    padding-left: 20px;
+    margin: 10px;
+}
+
+
+.box1{
+    color: red;
+    font-size: 50px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+}
+iframe[name=page]{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+.tb>a>i{
+    position: fixed;
+    right: 0px;
+    bottom: 70px;
+    font-size: 50px;
+    color: red;
+    padding: 0 10px;
+}
+
+
+.spmoi{
+    border: 1px solid gray;
+    width: 100%;
+    height: 120px;
+}
+
+.spmoi>.tenspmoi>a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+.spmoi>.tenspmoi>a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+aside>h2{
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+
+
+.spmoi>a>img{
+    width: 30%;
+    height: 100%;
+    padding: 0px;
+    float: left;
+}
+.tenspmoi{
+    width: 70%;
+    height: 100%;
+    float: right;
+    padding-left:  10px;
+}
+
+
+.bolocsp{
+    margin-left: 20px;
+}
+
+
+
+
+
+marquee{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(90, 190, 221);
+    color: red;
+    line-height: 30px;
+    font-size: 30px;
+}
+#p1>iframe{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+}
+aside>h3{
+    color: red;
+}
+.bolocsp>form>input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+}

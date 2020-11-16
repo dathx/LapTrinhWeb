@@ -1,0 +1,304 @@
+
+[class*="col-"] {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    min-height : 100px;
+}
+.dacbiet>[class*="col-"]{
+    border: 1px solid gray;
+}
+
+.dacbiet{
+    text-align: center;
+ width: 100%;
+    
+}
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+.dacbiet>[class*="col-"]:hover{
+    box-shadow: 0 0 10px gray ;
+}
+.dacbiet>[class*="col-"]>a:hover{
+    color: red;
+    text-decoration: none;
+}
+.dacbiet>[class*="col-"]>a{
+
+    text-decoration: none;
+}
+.mua>a{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.dacbiet>[class*="col-"]>.mua>a:hover{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    
+}
+.dacbiet>[class*="col-"]{
+    box-shadow: 0 10 10px cadetblue;
+}
+
+.dacbiet>[class*="col-"]>.box>a>img{
+    width: 220px;
+    height: 200px;
+}
+.imgl{
+    width: 100%;
+    height: 450px;
+}
+* { box-sizing: border-box;}
+
+
+
+.row {
+    width : 100%;
+}
+
+.row::after {
+    position: relative;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 {
+    width : 8.333%;
+}
+
+.col-2 {
+    width : 16.667%;
+}
+
+.col-3 {
+    width : 25%;
+}
+
+.col-4 {
+    width : 33.333%;
+}
+
+.col-5 {
+    width : 41.667%;
+}
+
+.col-6 {
+    width : 50%;
+}
+
+.col-7 {
+    width : 58.333%;
+}
+
+.col-8 {
+    width : 66.667%;
+}
+
+.col-9 {
+    width : 75%;
+}
+
+.col-10 {
+    width : 83.333%;;
+}
+
+.col-11 {
+    width : 91.667;
+}
+
+.col-12 {
+    width : 100%;
+}
+.box>img{
+    width: 220px;
+    height: 200px;
+  
+}
+.dacbiet>[class*="col-"]>.box>a{
+    text-decoration: none; 
+   
+}
+.dacbiet>[class*="col-"]>.box>a:hover{
+    color: red;
+    text-decoration: none; 
+
+}
+.dacbiet>[class*="col-"]>.box>.mua>a{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.dacbiet>[class*="col-"]>.box>.mua>a:hover{
+    background-color: red;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 10px;
+}
+.dacbiet>[class*="col-"]>.box>p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.a1{
+    width: 120x;
+    height: 120px;
+}
+
+article>a{
+  
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+article>img{
+    margin: 5px;
+    width: 98%;
+    height: 500px;
+}
+article>a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.a1{
+    width: 120x;
+    height: 120px;
+}
+
+article>a{
+    padding-left: 10px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.tinhot>img{
+    width: 100%;
+    height: 150px;
+}
+.tinhot>a{
+    text-decoration: none;
+    color: black;
+}
+.tinhot>a:hover{
+    color: red;
+    text-decoration: none;
+}
+.tintuc>[class*="col-"]>a{
+    color: black;
+    text-decoration: none;
+}
+.tintuc>[class*="col-"]>a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+
+.tt>a>img{
+    width: 20%;
+    height: 150px;
+    padding: 0px;
+    float: left;
+}
+.ttm{
+    width: 80%;
+    height: 200px;
+    float: right;
+    padding-left: 15px;
+}
+.tt{
+    width: 100%;
+    height: 500px; 
+    margin: 15px;
+}
+
+.tt>.ttm>a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.tt>.ttm>a:hover{
+    text-decoration: none;
+    color: red;
+}
+.lienhe{
+    margin: 15px;
+}
+input[type=text]{
+    height: 30px;
+}
+.giaochuyen{
+    padding-left: 20px;
+}
+/* Giao hàng chuyển khoản*/
+* { box-sizing: border-box;}
+.hop{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+.hop>.trai{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    float: left;
+}
+.hop>.phai{
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+.hop>.hinh{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    float: left;
+    left: 30%;
+    top: 10%;
+}
+.hh>img{
+    padding-top:60px;
+    width: 30%;
+    height: 30%;
+    float: left;
+    padding-left: 10px;
+}
+.hh>.h1{
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 70%;
+    float: right;
+}
+.trai1>img{
+    padding-top: 74px;
+    width: 30%;
+    height: 30%;
+    float: right;
+    padding-right: 10px;
+}
+.trai1>.h2{
+    padding-right: 20px;
+    padding-top: 20px;
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.hinh>img{
+    position: relative;
+    top: 500px;
+    
+}

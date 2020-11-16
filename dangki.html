@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/asm.css">
+    <link rel="stylesheet" href="Css/nav.css">
+    <link rel="stylesheet" href="Css/footer.css">
+    <link rel="stylesheet" href="Css/header.css">
+    <link rel="stylesheet" href="Css/dangki.css">
+</head>
+<body>
+    <div class="wrapper">
+
+
+        <header>
+            <script src="https://kit.fontawesome.com/3242a63c2a.js" crossorigin="anonymous"></script>       
+            <div class="menutren">
+                <a href="dangki.html">Đăng nhập</a>
+                <a href="dangki.html">Đăng kí</a>
+            </div>     
+            <div class="col-2">
+            <a href="index.html"><img src="Images/logoo.png" alt="" width="330px" height="250px" class="logoo"></a>
+            </div>
+
+            <div class="col-6"> 
+            <form action="">
+              <i class="fas fa-search"></i>  
+              <input type="search" name="sch" size="100" placeholder="  Nhập từ khóa cần tìm..." ><br><br> 
+            </form>
+            </div>
+
+            <div class="col-2">
+                  <br> <br><br>
+               <select name="" id="chon">
+                   <option value="1"> <i class="fas fa-map-marked-alt"></i> Địa điểm của bạn </option>
+                   <option value="2">Hà Nội</option>
+                   <option value="3">Tp HCM</option>
+                   <option value="4">Tỉnh Thành Khác</option>
+               </select>
+            </div>
+           
+            <div class="col-1.5">
+               <a href="giohang.html" title="Giỏ Hàng" target="page"><img src="Images/giohang.png"  alt="" width="100px " height="70px" class="gio"></a>
+            </div>
+        </header>
+
+        
+        <nav class="menu">
+            <ul>
+            <li> <a href="index.html" title="Trang chủ" target="_self">&nbsp;&nbsp;<i class="fas fa-home"></i> Trang chủ </a></li>
+            <li> 
+                  <a href="tintuc.html" target="page">Tin tức <img src="Images/icon-arrow-open.gif" alt=""> </a> 
+                <ul>
+                   <li><a href="giacf.html" target="page"> Bảng giá cafe</a></li> 
+                   <li><a href="tintuc.html" target="page">Tin tức mới</a></li>
+                </ul>                              
+            </li>
+            
+            <li>
+                 <a href="cafetrungnguyen.html" target="page"> Cafe trung nguyên <img src="Images/icon-arrow-open.gif"> </a>
+                 <ul>
+                     <li><a href="cfcc.html" target="page">Cafe Cao Cấp </a></li>
+                     <li><a href="tng7.html" target="page">Cafe G7 </a></li>
+                     <li><a href="cfphin.html" target="page">Cafe Pha Phin </a></li>
+                 </ul>
+            </li>
+            <li> <a href="cafechon.html" target="page"> Cafe chồn </a> </li>
+            <li> <a href="nescafe.html" target="page"> Nescafe </a></li>
+            <li> <a href="sppk.html" target="page"> phụ kiện </a></li> 
+            <li> <a href="giaochuyen.html" target="page">Giao nhận </a></li>
+            <li> <a href="lienhe.html" target="page"> Liên hệ & góp ý </a> </li>
+            
+            </ul>
+            <hr />
+        </nav>
+          <marquee>Ps12656-Hoàng Xuân Đạt-ASM</marquee>
+          <br><br><br>
+          <center>
+              <h1>Đăng nhập bằng</h1>
+              <div class="form-group">
+                <button class="form-button" tabindex="3"><i class="fab fa-facebook"></i>&nbsp; facebook</button>
+                <button class="form-button" tabindex="4"><i class="fab fa-google"></i> Google+</button>
+                <button class="form-button" disabled><i class="fas fa-envelope-square"></i> Email</button>
+              </div>
+            <br>
+            <center> HOẶC</center>        
+            <hr>
+        </center>
+        
+          <div class="col-4" ;>
+              <div class="dangnhap">
+              <h2>Đăng nhập</h2>
+              <div class="bai1">
+                <form action="index.php" method="post" enctype="">
+                    <label for="ten">User Name:</label><br>
+                    <input type="text" id="ten" size="30" placeholder="abc"><br>
+            
+                    <label for="pw">Password:</label><br>
+                    <input type="password" size="32" id="pw" ><br>
+                   
+                    <input type="checkbox">Remember Me ?<br>
+                    <hr>
+                    <label for="sm"></label>
+                    <input type="submit"  value="Login" id="sm">
+                </form>
+                </div></div>
+          </div>  
+
+          <div class="col-4">
+           <div class="dangki">
+              <table border="1px" >
+                  <form action="" method="post">
+                  <tr>
+                      <td colspan="2"> <center><h3>ĐĂNG KÍ</h3></center></td>
+                  </tr>
+                  <tr>
+                      <td>Full name</td>
+                      <td><input type="text" size="50" placeholder="Nhập đầy đủ họ và tên"></td>
+                  </tr>
+                  <tr>
+                      <td>Username </td>
+                      <td> <input type="text" size="50" placeholder="Nhập tên"></td>
+                  </tr>
+                  <tr>
+                      <td> Passworld</td>
+                      <td> <input type="text" size="50" placeholder="Nhập mật khẩu"> </td>
+                  </tr>
+                  <tr>
+                      <td>Nhập lại passworld</td>
+                      <td> <input type="text" size="50" placeholder="Nhập lại mật khẩu"></td>
+                  </tr>
+                  <tr>
+                      <td>Email</td>
+                      <td><input type="text"  size="50" placeholder="Nhập địa chỉ email"></td>
+                  </tr>
+                  <tr>
+                      <td>Giới tính</td>
+                      <td><input type="radio" name="gt" checked>Nam  <input type="radio" name="gt">Nữ</td>
+                  </tr>
+                  <tr>
+                      <td>Ngày sinh</td>
+                      <td><input type="date"></td>
+                  </tr>
+                  <tr>
+                      <td>Địa chỉ</td>
+                      <td>  <textarea name="" id="" cols="50" rows="3"></textarea></td>
+                  </tr>
+                  <tr>
+                      <td>Avarta</td>
+                      <td> <input type="file"></td>
+                  </tr>
+                  <tr>
+                      <td colspan="2"><input type="checkbox">Nhận thông báo khi có ưu đãi</td>
+                  </tr>
+                  <tr>
+                      <td colspan="2"> <center> <input type="submit" value="Đăng kí"> <input type="reset" value="Nhập lại"></center></td>
+                  </tr>
+                  
+                  </form>
+              </table>
+          </div></div>
+    <footer>
+    
+        <div class="foter2">
+        <div class="ft1">
+            <h2>LIÊN HỆ CÔNG TI</h2>
+            <hr>
+        <a href="">CÔNG TI TNHH TM VÀ DV DATCAFE</a> 
+        <P>Địa chỉ: 256/11 Tổ 4/kp1/Phừơng tân chánh hiệp/quận 12</P>          
+        <p>ĐT: 0393688714-03338273943- Hotline:00009</p>
+       
+        </div>
+
+        <div class="ft2">             
+            <h2>DANH MỤC SẢN PHẨM</h2>
+            <hr>    
+       
+          <a href="cafechon.html" target="page">Cà phê chồn cao cấp</a>  <br>
+          <a href="cfcc.html" target="page"> Cà phê Trung Nguyên</a> <br>
+          <a href="nescafe.html" target="page">Nescafe </a> <br>
+          <a href="sppk.html" target="page">Các sản phẩm và Phụ kiện</a>  <br>
+        
+        </div>
+        <div class="ft3">
+          <h2> HỖ TRỢ KHÁCH HÀNG</h2> 
+           <hr>
+       
+           <a href="giaochuyen.html" target="page">Hướng dẫn mua hàng</a>  <br>
+           <a href="giaochuyen.html" target="page">Phương thức thanh toán</a>  <br>
+           <a href="lienhe.html" target="page">Chính sách đổi trả</a>  <br>
+           <a href="tintuc.html" target="page">Tin Tức</a>  <br>
+           <a href="lienhe.html" target="page"> Liên hệ với chúng tôi</a> <br>
+        
+        </div>
+    </div>
+
+    </footer>
+</div>
+</body>
+</html>

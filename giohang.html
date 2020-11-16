@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="Css/ifame.css">
+    <link rel="stylesheet" href="Css/gio.css">
+</head>
+<body>
+    
+            <article id="p1">
+             <hr>
+             <script src="https://kit.fontawesome.com/3242a63c2a.js" crossorigin="anonymous"></script>
+               <hr>
+               <h2>GIỎ HÀNG CỦA BẠN</h2>
+               <hr>
+              <div class="col-3"><img src="../Images/cafe sa.jpg" alt=""   width="200px " ></div>
+               <div class="col-7">
+
+
+                  <form action="index.php" method="post" enctype="">
+               <h3>Tổng tiền</h3> <label for="sl">Số Lượng</label>
+                <input type="number" name="" id="sl"
+                min="1" max="100" step="1" value="1"><br>
+               <hr> <br>                             
+               <label for="ht">Họ Tên: </label>
+               <input type="text" size="30" id="ht" required placeholder="Bắt buộc"> &nbsp;
+               <label for="dt">Số điện thoại: </label>
+               <input type="text" size="20" id="dt" required placeholder="Bắt buộc" > <br> <br>
+               <label for="emal">Email :  </label>
+               <input type="text" size="50" id="emal" placeholder="Bắt buộc"><br><br>
+               <label for="gc">Ghi chú : </label><br>
+               <textarea name="" id="gc" cols="70" rows="5" placeholder="Không bắt buộc"></textarea><br>
+               <h3>Địa chỉ giao hàng</h3>
+               <hr>
+              <select name="tinhthanh" id="tt">
+                <option value="1">== Chọn Tỉnh Thành ==</option>
+                <option value="2">Tp Hồ Chí Minh</option>
+                <option value="24">Hà Nội</option>
+
+                <option value="25">Hà Tĩnh</option>
+
+                <option value="26">Hải Dương</option>
+
+                <option value="27">Hải Phòng</option>
+
+                <option value="28">Hậu Giang</option>
+
+                <option value="29">Hòa Bình</option>
+
+                <option value="30">Hưng Yên</option>
+
+                <option value="31">Khánh Hòa</option>
+
+                <option value="32">Kiên Giang</option>
+
+                <option value="33">Kom Tum</option>
+
+                <option value="34">Lai Châu</option>
+
+                <option value="35">Lâm Đồng</option>
+
+                <option value="36">Lạng Sơn</option>
+
+                <option value="37">Lào Cai</option>
+
+                <option value="38">Long An</option>
+
+                <option value="39">Nam Định</option>
+
+                <option value="40">Nghệ An</option>
+
+                <option value="41">Ninh Bình</option>
+
+                <option value="42">Ninh Thuận</option>
+
+                <option value="43">Phú Thọ</option>
+
+                <option value="44">Phú Yên</option>
+
+                <option value="45">Quảng Bình</option>
+
+                <option value="46">Quảng Nam</option>
+
+                <option value="47">Quảng Ngãi</option>
+
+                <option value="48">Quảng Ninh</option>
+
+                <option value="49">Quảng Trị</option>
+
+                <option value="50">Sóc Trăng</option>
+
+                <option value="51">Sơn La</option>
+
+                <option value="52">Tây Ninh</option>
+
+                <option value="53">Thái Bình</option>
+
+                <option value="54">Thái Nguyên</option>
+
+                <option value="55">Thanh Hóa</option>
+
+                <option value="56">Thừa Thiên Huế</option>
+
+                <option value="57">Tiền Giang</option>
+
+                <option value="58">Trà Vinh</option>
+
+                <option value="59">Tuyên Quang</option>
+
+                <option value="60">Vĩnh Long</option>
+
+                <option value="61">Vĩnh Phúc</option>
+
+                <option value="62">Yên Bái</option>
+
+                <option value="1">An Giang</option>
+
+                <option value="2">Bà Rịa - Vũng Tàu</option>
+
+                <option value="3">Bắc Giang</option>
+
+                <option value="4">Bắc Kạn</option>
+
+                <option value="5">Bạc Liêu</option>
+
+                <option value="6">Bắc Ninh</option>
+
+                <option value="7">Bến Tre</option>
+
+                <option value="8">Bình Định</option>
+
+                <option value="9">Bình Dương</option>
+
+                <option value="10">Bình Phước</option>
+
+                <option value="11">Bình Thuận</option>
+
+                <option value="12">Cà Mau</option>
+
+                <option value="13">Cao Bằng</option>
+
+                <option value="14">Cần Thơ</option>
+
+                <option value="15">Đà Nẵng</option>
+
+                <option value="16">Đắk Lắk</option>
+
+                <option value="17">Đắk Nông</option>
+
+                <option value="18">Điện Biên</option>
+
+                <option value="19">Đồng Nai</option>
+
+                <option value="20">Đồng Tháp</option>
+
+                <option value="21">Gia Lai</option>
+
+                <option value="22">Hà Giang</option>
+
+                <option value="23">Hà Nam</option>
+
+             
+              </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+              <select name="quanhuyen" id="quanhuyen">
+                <option value="1">Chọn quận huyện</option>
+              </select>
+                <br><br>
+              <input type="text" size="80" id="diachi" placeholder="Số nhà, Tên Đường, Phường / Xã">
+              <h3>Thời gian giao hàng</h3>
+    
+              Ngày/Tháng/Năm: <input type= "date"><br><br>
+              
+              
+              <fieldset>  
+                <legend> <strong>Chọn phương thức thanh toán</strong> </legend>
+                <input type="radio" name="td">Chuyển khoản ngân hàng
+                <input type="radio" name="td">Khi nhận hàng
+            </fieldset>
+                 <br><br>
+            <input type="checkbox">Xuất hóa đơn công ti
+            <br><br>
+
+            <input type="submit" value="Đặt Hàng Ngay"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Nhập lại"><br><br>
+
+            </div>
+               </form>
+            </article>
+          
+</body>
+</html>
